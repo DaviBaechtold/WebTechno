@@ -22,7 +22,7 @@
 		  		<img src='summer2.jpg' alt='logo' width='450' height='450'>
 	  		</td>
 		  	<td>
-				<h2 align="center"> Math Summer Exercises </h2>
+				<h2 align="center"> Math Summer Exercise</h2>
 				<p>This book is an exercise book for the kids from 3rd-4th grade
 				<br>Math Summer Workbook helps kids practise better basic math
 				<br>operations during summer so they are prepared for the next
