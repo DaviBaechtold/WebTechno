@@ -10,8 +10,8 @@
 	
 	<header>
 		<h1><big>Welcome to our bookstore!</big></h1>
-			<a class='cero' href='About.html' target='_blank'>Seller info</a><br>
-			<a href='./login.html' target='_blank'>
+			<a class='cero' href='About.php' target='_blank'>Seller info</a><br>
+			<a href='./login.php' target='_blank'>
 				<button>LOGIN</button>
 			</a>
 	</header>
@@ -27,18 +27,18 @@
 		<ul style='list_style_type: circle'>
 			<li class="bookGenre" data-genre="books">Books</li>
 				<ul style='list_style_type: empty-cells'>
-					<li class="bookGenre" data-genre="books"><a class='two' href='Exercise books.html'>Fiction</a></li>
-					<li class="bookGenre" data-genre="books"><a class='uno' href='Exercise books.html'>Non-Fiction</a></li>
+					<li class="bookGenre" data-genre="books"><a class='two' href='Exercise books.php'>Fiction</a></li>
+					<li class="bookGenre" data-genre="books"><a class='uno' href='Exercise books.php'>Non-Fiction</a></li>
 				</ul>
 			<li class="bookGenre" data-genre="educational">Educational</li>
 				<ul style='list_style_type: empty-cells'>
-					<li class="bookGenre" data-genre="educational"><a class='two' href='Exercise books.html'>Dictionaries</a></li>
-					<li class="bookGenre" data-genre="educational"><a class='uno' href='Exercise books.html'>Textbooks</a></li>
+					<li class="bookGenre" data-genre="educational"><a class='two' href='Exercise books.php'>Dictionaries</a></li>
+					<li class="bookGenre" data-genre="educational"><a class='uno' href='Exercise books.php'>Textbooks</a></li>
 				</ul>
 			<li class="bookGenre" data-genre="recipes">Recipes</li>
 				<ul style='list_style_type: empty-cells'>
-					<li class="bookGenre" data-genre="recipes"><a class='two' href='Exercise books.html'>Desserts</a></li>
-					<li class="bookGenre" data-genre="recipes"><a class='uno' href='Exercise books.html'>Grandma's Recipes</a></li>
+					<li class="bookGenre" data-genre="recipes"><a class='two' href='Exercise books.php'>Desserts</a></li>
+					<li class="bookGenre" data-genre="recipes"><a class='uno' href='Exercise books.php'>Grandma's Recipes</a></li>
 				</ul>
 		</ul>
 	</body>

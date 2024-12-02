@@ -12,14 +12,14 @@
 	<table>
 		<tr>
 			<td>
-				<a href='index.html' target='_blank' id="home">
+				<a href='index.php' target='_blank' id="home">
 					Home
 				</a>
 			</td>
 		</tr>
 	  <tr>
 		<td>
-			<a href='Book2.html' target='_blank'>
+			<a href='Book2.php' target='_blank'>
 				<img src='../Image/book2.jpg' alt='logo'width="250px" height="250px">
 				<h2>Staying healthy</h2>
 			</a>
@@ -31,7 +31,7 @@
 				79.99€
 			</h2>
 		</label>
-		<form action="cart.html" method="get">
+		<form action="cart.php" method="get">
 			<input type="submit" value="Add to cart">
 			<input type="number" id="Q1" min="1" value="1">
 			<button type="button" onclick="addToCollection('Staying Healthy', 'Q1')">
@@ -45,7 +45,7 @@
 		</form>
 		</td>
 		<td>
-			<a href='Summer1.html' target='_blank'>
+			<a href='Summer1.php' target='_blank'>
 				<img src='../Image/summer1.jpg' alt='logo'width="250px" height="250px">
 				<h2>Summer Exercise</h2>
 			</a>
@@ -57,7 +57,7 @@
 					49.99€
 				</h2>
 			</label>
-			<form action="cart.html" method="get">
+			<form action="cart.php" method="get">
 				<input type="submit" value="Add to cart">
 				<input type="number" id="Q2" min="1" value="1">
 				<button type="button" onclick="addToCollection('Summer Exercises', 'Q2')">
@@ -70,7 +70,7 @@
 			</form>
 		</td>
 		<td>
-			<a class="Exercises" href='Summer2.html' target='_blank'>
+			<a class="Exercises" href='Summer2.php' target='_blank'>
 				<img src='../Image/summer2.jpg' alt='logo' width="250px" height="250px">
 				<h2>Math Exercise 3-4</h2>
 			</a>
@@ -82,7 +82,7 @@
 					59.99€
 				</h2>
 			</label>
-			<form action="cart.html" method="get">
+			<form action="cart.php" method="get">
 				<input type="submit" value="Add to cart">
 				<input type="number" id="Q3" min="1" value="1">
 				<button type="button" onclick="addToCollection('Math Exercises', 'Q3')">

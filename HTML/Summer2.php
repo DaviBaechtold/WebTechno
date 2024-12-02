@@ -9,10 +9,10 @@
 	<table cellspacing="20">
 		<tr>
 			<td>
-				<a href='index.html' target='_blank' id="home">
+				<a href='index.php' target='_blank' id="home">
 					Home
 				</a>
-				<a href='Exercise books.html' target='_blank' id="Back">
+				<a href='Exercise books.php' target='_blank' id="Back">
 					Back
 				</a>
 			</td>
@@ -29,7 +29,7 @@
 				<br>school year.
 				</p>
 				<h1>49.99€</h1>
-				<form action="cart.html" method="get">
+				<form action="cart.php" method="get">
 					<input type="submit" value="Add to cart">
 				</form>
 	  		</td>

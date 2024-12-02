@@ -11,7 +11,7 @@
 </header>
 <body>
     <table>
-        <a href='index.html' target='_blank' id="home">
+        <a href='index.php' target='_blank' id="home">
             Home
         </a>
     </table>

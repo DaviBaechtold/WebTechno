@@ -13,7 +13,7 @@
 
 <div class="login-container">
     <h2>Login</h2>
-    <form action="customer.html" method="POST">
+    <form action="customer.php" method="POST">
         <div class="form-group">
             <label for="username">Username</label>
             <input type="text" id="username" name="username" required>
@@ -25,7 +25,7 @@
         </div>
 
         <div class="buttons">
-            <button type="button" onclick="window.location.href='registration.html'">Register</button>
+            <button type="button" onclick="window.location.href='registration.php'">Register</button>
             <button type="submit">Login</button>
         </div>
         
@@ -35,10 +35,10 @@
 
     <table>
         <td>
-        <a href='index.html' target='_blank' id="home">
+        <a href='index.php' target='_blank' id="home">
             Home
         </a>
-        <a href='customer.html' target='_blank' id="Back">
+        <a href='customer.php' target='_blank' id="Back">
             Current Customer
         </a>
         </td>

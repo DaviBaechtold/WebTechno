@@ -30,10 +30,10 @@
 
 	<table>
         <td>
-        <a href='index.html' target='_blank' id="home">
+        <a href='index.php' target='_blank' id="home">
             Home
         </a>
-        <a href='logout.html' target='_blank' id="Back">
+        <a href='logout.php' target='_blank' id="Back">
             Logout
         </a>
     </td>
