@@ -1,0 +1,58 @@
+form label,form a{
+    font-family: inherit;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    width: auto;
+ }
+
+form input{
+    align-items: center;
+    width:auto;
+    font-size: inherit;
+    font-family: inherit;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 2px solid lightgray;
+    border-radius: 4px; 
+}
+
+
+form input[type="submit"]{
+    color: white;
+    background-color: #0074d9;
+    border-color: lightgrey;
+    width:100%;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: inherit;  
+}
+
+form input[type="submit"]:hover{
+    background-color: #0056a3;
+}
+form table{
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    cellspacing: 40px;    
+}
+
+form td{
+    padding-left: 40px;
+    text-align: center;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+form img{
+    width: 250px;
+    height: 250px;
+}
+
+

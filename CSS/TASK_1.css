@@ -1,0 +1,49 @@
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+}
+
+p {
+    text-align: right;
+}
+
+th {
+	background-color: lightgray;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+a.cero {
+	color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.uno {
+	color: #00008B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.two {
+	color: #0066cc;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+
+
+
+
+
