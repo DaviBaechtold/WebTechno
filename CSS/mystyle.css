@@ -1,5 +1,5 @@
 /* Apply a unifying background and font style */
-body {
+body, nav a{
     background-color: #f0f4f8;
     font-family: 'Arial', sans-serif;
     font-size: 14px;
@@ -23,7 +23,7 @@ nav {
     padding: 10px;
 }
 
-nav a, a {
+a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
@@ -117,7 +117,7 @@ button:hover, input[type="submit"]:hover {
     border-radius: 5px; /* Adds rounded corners for modern look */
 }
 
-#Back:hover {
+#Back:hover, #home:hover {
     background-color: darkblue; /* Darkens button on hover */
     color: #ffcc00; /* Highlights text on hover */
 }
@@ -183,7 +183,7 @@ input[type="submit"]{
     
 }
 h2 {
-    color: #333;
+    color: inherit;
 }
 
 #logoutimg {
@@ -199,12 +199,12 @@ h2 {
 
 /* Dark Mode */
 body.dark-mode {
-    background-color: #121212;
+    background-color: #333333;
     color: #ffffff;
 }
 
 header.dark-mode, footer.dark-mode {
-    background-color: #333333;
+    background-color: #121212;
     color: #ffffff;
 }
 

@@ -19,7 +19,11 @@
 		</tr>
 	  <tr>
 		<td>
+<<<<<<< HEAD:HTML/Exercise books.html
 			<a href='Book2.html' >
+=======
+			<a href='Book2.php' target='_blank'>
+>>>>>>> e077e084ad359bfb6a2ad28cbf31d1c5e0ec3e5c:PHP/Exercise books.php
 				<img src='../Image/book2.jpg' alt='logo'width="250px" height="250px">
 				<h2>Staying healthy</h2>
 			</a>
@@ -31,7 +35,7 @@
 				79.99€
 			</h2>
 		</label>
-		<form action="cart.html" method="get">
+		<form action="cart.php" method="get">
 			<input type="submit" value="Add to cart">
 			<input type="number" id="Q1" min="1" value="1">
 			<button type="button" onclick="addToCollection('Staying Healthy', 'Q1')">
@@ -45,7 +49,11 @@
 		</form>
 		</td>
 		<td>
+<<<<<<< HEAD:HTML/Exercise books.html
 			<a href='Summer1.html' >
+=======
+			<a href='Summer1.php' target='_blank'>
+>>>>>>> e077e084ad359bfb6a2ad28cbf31d1c5e0ec3e5c:PHP/Exercise books.php
 				<img src='../Image/summer1.jpg' alt='logo'width="250px" height="250px">
 				<h2>Summer Exercise</h2>
 			</a>
@@ -57,7 +65,7 @@
 					49.99€
 				</h2>
 			</label>
-			<form action="cart.html" method="get">
+			<form action="cart.php" method="get">
 				<input type="submit" value="Add to cart">
 				<input type="number" id="Q2" min="1" value="1">
 				<button type="button" onclick="addToCollection('Summer Exercises', 'Q2')">
@@ -70,7 +78,11 @@
 			</form>
 		</td>
 		<td>
+<<<<<<< HEAD:HTML/Exercise books.html
 			<a class="Exercises" href='Summer2.html' >
+=======
+			<a class="Exercises" href='Summer2.php' target='_blank'>
+>>>>>>> e077e084ad359bfb6a2ad28cbf31d1c5e0ec3e5c:PHP/Exercise books.php
 				<img src='../Image/summer2.jpg' alt='logo' width="250px" height="250px">
 				<h2>Math Exercise 3-4</h2>
 			</a>
@@ -82,7 +94,7 @@
 					59.99€
 				</h2>
 			</label>
-			<form action="cart.html" method="get">
+			<form action="cart.php" method="get">
 				<input type="submit" value="Add to cart">
 				<input type="number" id="Q3" min="1" value="1">
 				<button type="button" onclick="addToCollection('Math Exercises', 'Q3')">

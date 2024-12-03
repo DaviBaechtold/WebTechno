@@ -30,7 +30,7 @@
         </div>
 
         <div class="buttons">
-            <button type="button" onclick="window.location.href='login.html'">Cancel</button>
+            <button type="button" onclick="window.location.href='login.php'">Cancel</button>
             <button type="submit">Register</button>
         </div>
     </form>
