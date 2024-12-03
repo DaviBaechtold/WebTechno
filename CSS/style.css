@@ -55,4 +55,54 @@ form img{
     height: 250px;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#cartTable {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+#cartTable th, #cartTable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#cartSummary {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056a3;
+}
+
+.remove-button {
+    background-color: #ff0000;
+}
+
+.remove-button:hover {
+    background-color: #b30000;
+}
 
