@@ -5,27 +5,27 @@
         "name": "Book1",
         "description": "This book is an exercise book <br>for the kids in pre-school, <br> Highlights Summer Big Fun...<br>",
         "imagePath": "../Image/book2.jpg",
+        "price": 79.99,
         "category": "Books",
-        "subcategory": "Exercise Book",
-        "price": 79.99
+        "subcategory": "Exercise Book"        
       },
       {
         "pid": 2,
         "name": "Book2",
         "description": "This book is an exercise book <br>for the kids in pre-school, <br>Highlights Summer Big Fun...<br>",
         "imagePath": "../Image/summer1.jpg",
+        "price": 49.99,
         "category": "Books",
-        "subcategory": "Exercise Book",
-        "price": 49.99
+        "subcategory": "Exercise Book"
       }
       {
         "pid": 3,
         "name": "Book3",
         "description": "Classic straight-fit denim jeans.",
         "imagePath": "../Image/summer2.jpg",
+        "price": 59.99,
         "category": "Books",
-        "subcategory": "Exercise Book",
-        "price": 59.99
+        "subcategory": "Exercise Book"
       }
     ]
 }
