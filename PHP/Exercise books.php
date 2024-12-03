@@ -6,20 +6,23 @@
 	<link rel="stylesheet" href="../CSS/mystyle.css">
 </head>
 
+<header>
+	<h1>Book Collection</h1>
+</header>
 
 <body>  
-	<h1>Book Collection</h1>
+	
 	<table>
 		<tr>
 			<td>
-				<a href='index.php' target='_blank' id="home">
+				<a href='index.php'  id="home">
 					Home
 				</a>
 			</td>
 		</tr>
 	  <tr>
 		<td>
-			<a href='Book2.php' target='_blank'>
+			<a href='Book2.php' >
 				<img src='../Image/book2.jpg' alt='logo'width="250px" height="250px">
 				<h2>Staying healthy</h2>
 			</a>
@@ -45,7 +48,7 @@
 		</form>
 		</td>
 		<td>
-			<a href='Summer1.php' target='_blank'>
+			<a href='Summer1.php' >
 				<img src='../Image/summer1.jpg' alt='logo'width="250px" height="250px">
 				<h2>Summer Exercise</h2>
 			</a>
