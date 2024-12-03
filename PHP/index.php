@@ -10,8 +10,8 @@
 	
 	<header>
 		<h1><big>Welcome to our bookstore!</big></h1>
-			<a class='cero' href='About.html' >Seller info</a><br>
-			<a href='./login.html' >
+			<a class='cero' href='About.php' >Seller info</a><br>
+			<a href='./login.php' >
 				<button>LOGIN</button>
 			</a>
 	</header>

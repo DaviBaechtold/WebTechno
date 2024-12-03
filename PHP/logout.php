@@ -20,10 +20,10 @@
 
     <table align="center">
         <td>
-        <a href='index.html'  id="home" >
+        <a href='index.php'  id="home" >
             Home
         </a>
-        <a href='login.html'  id="Back" >
+        <a href='login.php'  id="Back" >
             Login
         </a>
         </td>

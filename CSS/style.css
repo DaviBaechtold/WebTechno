@@ -64,6 +64,15 @@ h1 {
     text-align: center;
 }
 
+/*
+td{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+*/
+
 #cartTable {
     width: 100%;
     margin-bottom: 20px;

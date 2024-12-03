@@ -35,10 +35,10 @@
 
     <table>
         <td>
-        <a href='index.html'  id="home">
+        <a href='index.php'  id="home">
             Home
         </a>
-        <a href='customer.html'  id="Back">
+        <a href='customer.php'  id="Back">
             Current Customer
         </a>
         </td>

@@ -6,24 +6,23 @@
 	<link rel="stylesheet" href="../CSS/mystyle.css">
 </head>
 
+<header>
+	<h1>Book Collection</h1>
+</header>
 
 <body>  
-	<h1>Book Collection</h1>
+	
 	<table>
 		<tr>
 			<td>
-				<a href='index.html'  id="home">
+				<a href='index.php'  id="home">
 					Home
 				</a>
 			</td>
 		</tr>
 	  <tr>
 		<td>
-<<<<<<< HEAD:HTML/Exercise books.html
-			<a href='Book2.html' >
-=======
-			<a href='Book2.php' target='_blank'>
->>>>>>> e077e084ad359bfb6a2ad28cbf31d1c5e0ec3e5c:PHP/Exercise books.php
+			<a href='Book2.php' >
 				<img src='../Image/book2.jpg' alt='logo'width="250px" height="250px">
 				<h2>Staying healthy</h2>
 			</a>
@@ -49,11 +48,7 @@
 		</form>
 		</td>
 		<td>
-<<<<<<< HEAD:HTML/Exercise books.html
-			<a href='Summer1.html' >
-=======
-			<a href='Summer1.php' target='_blank'>
->>>>>>> e077e084ad359bfb6a2ad28cbf31d1c5e0ec3e5c:PHP/Exercise books.php
+			<a href='Summer1.php' >
 				<img src='../Image/summer1.jpg' alt='logo'width="250px" height="250px">
 				<h2>Summer Exercise</h2>
 			</a>
@@ -78,11 +73,7 @@
 			</form>
 		</td>
 		<td>
-<<<<<<< HEAD:HTML/Exercise books.html
-			<a class="Exercises" href='Summer2.html' >
-=======
 			<a class="Exercises" href='Summer2.php' target='_blank'>
->>>>>>> e077e084ad359bfb6a2ad28cbf31d1c5e0ec3e5c:PHP/Exercise books.php
 				<img src='../Image/summer2.jpg' alt='logo' width="250px" height="250px">
 				<h2>Math Exercise 3-4</h2>
 			</a>

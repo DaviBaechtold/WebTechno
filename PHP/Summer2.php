@@ -9,10 +9,10 @@
 	<table cellspacing="20">
 		<tr>
 			<td>
-				<a href='index.html'  id="home">
+				<a href='index.php'  id="home">
 					Home
 				</a>
-				<a href='Exercise books.html'  id="Back">
+				<a href='Exercise books.php'  id="Back">
 					Back
 				</a>
 			</td>
