@@ -1,4 +1,4 @@
-form label,form a{
+form label{
     font-family: inherit;
     margin-bottom: 10px;
     padding-top: 10px;
@@ -64,6 +64,15 @@ h1 {
     text-align: center;
 }
 
+/*
+td{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+*/
+
 #cartTable {
     width: 100%;
     margin-bottom: 20px;
@@ -105,4 +114,3 @@ button:hover {
 .remove-button:hover {
     background-color: #b30000;
 }
-

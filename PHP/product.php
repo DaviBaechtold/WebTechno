@@ -55,8 +55,8 @@ else
     <table>
         <tr>
             <td>
-                <a href='index.php' target='_blank' id="home">Home</a>
-                <a href='Exercise books.php' target='_blank' id="Back">Back</a>
+                <a href='index.php'  id="home">Home</a>
+                <a href='Exercise books.php'  id="Back">Back</a>
             </td>
         </tr>
         <tr>
