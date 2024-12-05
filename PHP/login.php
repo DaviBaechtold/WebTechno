@@ -4,8 +4,6 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/TASK_1.css">
     <link rel="stylesheet" href="../CSS/mystyle.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
 </head>
@@ -35,10 +33,10 @@
 
     <table>
         <td>
-        <a href='index.php' target='_blank' id="home">
+        <a href='index.php'  id="home">
             Home
         </a>
-        <a href='customer.php' target='_blank' id="Back">
+        <a href='customer.php'  id="Back">
             Current Customer
         </a>
         </td>
@@ -47,3 +45,4 @@
     <script src="../JavaScript/script.js"></script>
 </body>
 </html>
+

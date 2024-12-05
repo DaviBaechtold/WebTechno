@@ -1,4 +1,4 @@
-form label,form a{
+form label{
     font-family: inherit;
     margin-bottom: 10px;
     padding-top: 10px;
@@ -63,6 +63,15 @@ body {
 h1 {
     text-align: center;
 }
+
+/*
+td{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+*/
 
 #cartTable {
     width: 100%;
