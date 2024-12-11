@@ -38,14 +38,14 @@ $products = $data['products'] ?? [];
         <tr>
             <?php foreach ($products as $product): ?>
                 <td>
-                    <a href='product.php?pid=<?php echo htmlspecialchars($product["pid"]); ?>' >
-                        <img src='<?php echo htmlspecialchars($product["imagePath"]); ?>' alt='logo' width="250px" height="250px">
-                        <h2><?php echo htmlspecialchars($product["name"]); ?></h2>
+                    <a href='product.php?pid=<?php echo $product["pid"]; ?>' >
+                        <img src='<?php echo $product["imagePath"]; ?>' alt='logo' width="250px" height="250px">
+                        <h2><?php echo $product["name"]; ?></h2>
                     </a>
                     <label>
                         <?php echo $product["description"]; ?>
                         <h2 id="Promo<?php echo $product["pid"]; ?>">
-                            <?php echo htmlspecialchars($product["price"]); ?>€
+                            <?php echo $product["price"]; ?>€
                         </h2>
                     </label>
                     <form action="cart.php" method="get">

@@ -64,8 +64,7 @@ function invalid(x)
     x.style.outline = 'none';
 }
 
-function validateForm(event) 
-{
+function validateForm(event) {
     const form = event.target;
     let isValid = true;
 
@@ -73,15 +72,31 @@ function validateForm(event)
     const password = form.querySelector('#password');
     const secondPw = form.querySelector('#confirm-password');
 
+    // Clear any previous error messages
+    const errorMessageDiv = form.querySelector('.error-message');
+    if (errorMessageDiv) {
+        errorMessageDiv.textContent = '';
+    }
+
+    // Client-side validation
     isValid = usernameFive(username) && isValid;
     isValid = passwordTen(password) && isValid;
     isValid = secondEqualFirstPw(password, secondPw) && isValid;
 
-    if (!isValid) 
-        {
-            event.preventDefault();
+    if (!isValid) {
+        event.preventDefault();
+        // Display a general error message
+        const errorMessageDiv = form.querySelector('.error-message');
+        if (!errorMessageDiv) {
+            const div = document.createElement('div');
+            div.className = 'error-message';
+            div.style.color = 'red';
+            form.prepend(div);
         }
+        form.querySelector('.error-message').textContent = 'Please correct the errors above.';
+    }
 }
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
